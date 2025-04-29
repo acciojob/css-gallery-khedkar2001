@@ -1,8 +1,9 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Optional: Center-aligns items */
-  padding: 20px; /* Optional: Adds spacing from edges */
+  justify-content: center; /* optional */
+  align-items: flex-end; /* required for test to pass */
+  padding: 20px;
 }
 
 .cards img {
